@@ -14,6 +14,9 @@
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 
+;;Prefer Unicode
+(prefer-coding-system 'utf-8)
+
 ;;Line Numbers & highlight:
 (global-hl-line-mode 1)
 (global-linum-mode 1)
