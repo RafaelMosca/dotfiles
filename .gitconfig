@@ -1,0 +1,15 @@
+[user]
+	email = rafaelmosca88@gmail.com
+	name = RafaelMosca
+[color]
+	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+[alias]
+	lg = log --abbrev-commit --format=format:'%C(dim yellow)%h%C(reset) %C(white)%<(70,trunc)%s%C(reset) %C(bold green)%D%C(reset)' --all -5
+	lgn = log --abbrev-commit --format=format:'%C(dim yellow)%h%C(reset) %C(dim white)%an%C(reset) %C(white)%<(60,trunc)%s%C(reset) %C(bold green)%D%C(reset)' --all -5
+[core]
+	autocrlf = true
+	symlinks = false
